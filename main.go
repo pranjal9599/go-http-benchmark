@@ -49,9 +49,8 @@ func main() {
 	fmt.Println("Url: ", *urlPtr);
 	fmt.Println("N: ", *noOfRequests);
 	fmt.Println("C: ", *concurrentConn);
-	fmt.Println("Per: ", reqPerC);
 
-	fmt.Println("Time taken ", finish.Sub(start))
+	fmt.Println("Time taken: ", finish.Sub(start))
 
 
 }
